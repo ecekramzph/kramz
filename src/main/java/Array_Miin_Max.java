@@ -37,8 +37,7 @@ public class Array_Miin_Max {
         for (int i =0; i<list.length;i++){
             System.out.print(list[i]+", ");}
         
-        // mao ni sa pagarrange increasing order
-        // sa kani na code matapok and magkakaparehas ug value
+        
         int temp = 0;
         for(int i =0;i<list.length;i++){
             for(int j= i+1;j<list.length;j++){
@@ -71,11 +70,9 @@ public class Array_Miin_Max {
                 max = list[i];
             }
         }
-        System.out.println("MAXIMUM VALUE"+ min);
-        System.out.println("MINIMUM VALUE: "+ max);
+        System.out.println("MAXIMUM VALUE"+ max);
+        System.out.println("MINIMUM VALUE: "+ min);
         System.out.println("—————————————");
     }
 }
-//mao ni sa pag-identify sa min ug max
-        //isaisahon niya ug compare bawat numbers...
-        //if mas gamay or mas dako ba ni sa iyahang madiscover na value sa bawat index sa array
+
